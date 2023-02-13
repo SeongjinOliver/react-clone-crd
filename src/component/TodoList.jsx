@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
-import Header from "./Header";
-import Body from "./Body";
 import AddTodo from "./AddTodo/AddTodo";
-import styles from "./TodoList.module.css";
 
 export default function TodoList() {
     const [todos, setTodos] = useState([
@@ -19,11 +16,4 @@ export default function TodoList() {
         </ul>
         <AddTodo onAdd={handleAdd}/>
     </section>
-    // return (
-    //     <div className={styles.main}>
-    //         <Header/>
-    //         <Body/>
-    //
-    //     </div>
-    // );
 }
