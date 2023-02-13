@@ -1,0 +1,27 @@
+.head {
+    width: 35vh;
+    background-color: #61dafb;
+    border: 1px solid darkblue;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.buttons1 {
+    float: left;
+}
+
+.buttons {
+    float: right;
+}
+
+.all {
+    margin-right: 0.3rem;
+}
+
+.active {
+    margin-right: 0.3rem;
+}
+
+.complete {
+    margin-right: 0.3rem;
+}
