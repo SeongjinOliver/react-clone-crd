@@ -1,5 +1,5 @@
 import './App.css';
-import TodoList from "./component/TodoList";
+import TodoList from "./component/TodoList/TodoList";
 import Header from "./component/Header/Header";
 import {useState} from "react";
 import styles from "./App.module.css"

@@ -14,13 +14,14 @@ export default function AddTodo({onAdd}) {
     setText('');
   }
   return (
-    <form onSubmit={handleSubmit} className={styles.add}>
-      <input type="text"
+    <form onSubmit={handleSubmit} className={styles.form}>
+      <input
+             className={styles.input}
+             type="text"
              placeholder='Add Todo'
-             className={styles.text}
              value={text}
              onChange={handleChange}/>
-      <button>Add</button>
+      <button className={styles.button}>Add</button>
     </form>
   );
 }
